@@ -1,0 +1,40 @@
+h1
+{
+	text-align: center;
+}
+
+form
+{
+	margin: auto;
+	width: 400px;
+	border: 1px solid black;
+	text-align: justify;
+	padding: 12px;
+}
+
+div
+{
+	margin: auto;
+	width: 800px;
+	
+	text-align: justify;
+	padding: 12px;
+}
+
+a
+{
+	text-decoration: none;
+	color: red;
+}
+
+table 
+{
+	border: medium solid #000000;
+	width: auto;
+	border-collapse: collapse;
+}
+
+td, th
+{
+	border: thin solid #6495ed;
+}

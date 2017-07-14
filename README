@@ -1,0 +1,34 @@
+Instructions :
+
+1) Placer le dossier 'CodeIgniter' dans le dossier 'www' du dossier du serveur en fonction de l'OS, par exemple dans le sous-dossier 'www' du dossier 'wamp64' pour Windows.
+2) Lancer le serveur.
+3) Se rendre à l'adresse 'http://localhost/phpmyadmin/' sur son navigateur.
+4) Cliquer le bouton 'Import', puis importer le fichier 'form.sql'.
+5) Se rendre à l'adresse 'http://localhost/CodeIgniter/'.
+
+Un utilisateur ayant le rôle d'administrateur est créé lors de l'importation du fichier 'form.sql'.
+Afin de se connecter avec cet utilisateur, ces identifiants sont :
+		- Adresse Mail : administrateur@administrateur.fr
+		- Mot de Passe : administrateur
+Une fois connecté, vous serez dirigés sur votre page de profil, à partir de cette page de profil, vous avez la possibilitée de vous déconnecter et de gérer les autres utilisateurs, à savoir modifier leur information ou supprimer leur compte.
+
+Lorsque vous n'êtes pas connectés, vous avez la possibilitée de :
+- Vous inscrire :
+		- Aucun champ ne peut être vide.
+		- L'adresse mail ne doit pas être déjà utilisée par un autre utilisateur inscrit.
+		- L'adresse mail doit être dans un format d'adresse mail valide.
+		- L'adresse mail et la confirmation de l'adresse mail doivent être identiques.
+		- Il en est de même pour le mot de passe et la confirmation du mot de passe.
+		- Le mot de passe doit contenir au moins 6 caractères.
+		Une fois inscrit, vous recevrez un mail vous souhaitant la bienvenue.
+- Vous connecter.
+
+Si vous vous connectez avec le statut de 'Utilisateur', vous serez redirigés vers votre page de profil et vous ne pourrez rien faire d'autre que de vous déconnecter.
+Afin de pouvoir voir, modifier et supprimer les autres utilisateurs, un administrateur doit être connecté et modifié votre rôle en 'Administrateur'.
+
+Lors de la modification d'un utilisateur :
+		- Aucun champ de peut être vide.
+		- L'adresse mail doit être dans un format d'adresse mail valide.
+
+Vous ne pouvez supprimer un utilisateur si vous êtes connectés avec cet utilisateur.
+
